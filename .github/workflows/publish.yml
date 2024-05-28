@@ -1,9 +1,9 @@
 name: Convert and Deploy Notebook
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-      - main  # Replace with the branch you want to trigger the action
+    branches: main
 
 jobs:
   Export:
