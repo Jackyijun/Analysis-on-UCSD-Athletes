@@ -3,7 +3,7 @@ name: Convert and Deploy Notebook
 on:
   push:
     branches:
-      - main  # Replace with the branch you want to trigger the action
+      - master  # Replace with the branch you want to trigger the action
 
 jobs:
   Export:
